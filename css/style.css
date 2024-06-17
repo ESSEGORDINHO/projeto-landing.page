@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    font-family: 'Inter';
+    margin: 0;
+    padding: 0;
+}
+
+#logo {
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+#texto-menu {
+    margin-left: 150px;
+    margin-top: 50px;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+#texto-menu2 {
+    margin-left: 150px;
+    margin-top: 35px;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 100px;
+
+}
+
+#menu-superior {
+    background-color: black;
+    background-image: url(../imagens/fundo-topo.svg);
+    background-size: cover;
+    color: white;
+    font-family: 'Inter';
+
+}
+
+#menu-informacional {
+    background-color: #EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+
+}
+.icone{
+  margin: 50px 0px 50px 100px;
+    padding: 15px;
+}
+#secao-video{
+    display: grid;
+     grid-auto-flow: column;
+     columns: auto;
+}
+.textoinformativo{
+display: flex;
+align-items: center;
+
+}
+
+#titulo-video{
+    color: #247BA0;
+    margin-top: 50px;
+    font-weight: 700;
+    font-size: 32px;
+
+}
+#texto-video{
+    font-weight: 400;
+    font-size: 16pxS;
+}
+
+#video{
+    margin: 50px 25px 50px 100px;
+
+}
+
+#carrosel{
+    background-color: #247BA0;
+padding: 50px;
+}
+
+#texto-carrosel{
+    color: white;
+    text-align: center;
+    font-size: 36px;
+}
+
+#cardss{
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardd{
+padding: 20px;
+  
+}
+
+#seta-esquerda{
+    display: none;
+
+}
+
+#Bruna{
+display:none;
+
+}
+
+
+.seta{
+    cursor: pointer;
+}
+.seta:hover{ 
+    transform:translateY(-7px);
+    transition-duration: 0.5s ;
+
+}
+
+
+#formulario{
+text-align: center;
+
+}
+
+
+#titulo-formulario{
+font-size: 32px;
+margin: 25px;
+color: #383838;
+
+
+}
+
+input{
+    Width: 413px;
+    Height: 53px;
+    background-color: #EAECE5;
+    margin: 25px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 15px;
+}
+button{
+    background-color: #247BA0;
+    Width: 350px;
+    Height: 53px;
+    color: #FFFFFF;
+    border: 0px;
+    border-radius: 8px;
+    margin-bottom: 45px;
+    font-weight: bolder;
+    cursor: pointer;
+    
+}
+
+button:hover{
+    background-color: #378cb1;
+    color: white;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #1c455786;
+    transition-duration: 0.5s;
+}
